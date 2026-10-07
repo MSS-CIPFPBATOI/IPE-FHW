@@ -12,6 +12,8 @@
 
 - **45SCN40** : RJ45 Servidor Comunicaciones-Network Grupo 4
 
+- **45CLS40** : RJ45 Cluster-Switch Grupo 4
+
 ## Dispositivos
 
 - **MK40**

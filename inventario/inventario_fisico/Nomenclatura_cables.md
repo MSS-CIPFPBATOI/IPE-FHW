@@ -16,10 +16,10 @@
 
 ## Dispositivos
 
-- **MK40**
+- **MK40** : Mikrotik Grupo 4
 
-- **SW40** : Mikrotik Grupo 4
+- **SW40** : Switch Grupo 4
 
-- **SWM40** : Mikrotik Grupo 4
+- **SWM40** : Switch Mesa Grupo 4
 
--  **SC40** : Mikrotik Grupo 4
+-  **SC40** : Servidor Comunicaciones Grupo 4

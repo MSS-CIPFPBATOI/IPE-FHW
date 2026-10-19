@@ -11,7 +11,7 @@
 
 ### Eleccion final
 
-Elegimos MikroTik RouterOS para gestionar la red y Ubuntu Server para proporcionar servicios adicionales. Así separamos las funciones de red de los servicios internos. RouterOS suele incluir su licencia en los routers compatibles, mientras que Ubuntu Server permite instalar servicios sin pagar una licencia de sistema operativo.
+Elegimos MikroTik RouterOS para gestionar la red y Ubuntu Server para proporcionar servicios adicionales. Así separamos las funciones de red de los servicios internos.
 
 ---
 
@@ -25,7 +25,7 @@ Elegimos MikroTik RouterOS para gestionar la red y Ubuntu Server para proporcion
 
 ### Elección final
 
-Elegimos Proxmox VE porque permite virtualizar Ubuntu Server y Windows Server en un único equipo físico, aprovechar mejor los recursos y administrar las máquinas desde una interfaz web. Su uso básico es gratuito y las suscripciones son opcionales. Es una opción adecuada para reducir costes y facilitar las pruebas de nuestra infraestructura.
+Elegimos Proxmox VE para virtualizar y aprovechar mejor los recursos y administrar las máquinas desde una interfaz sencilla. 
 
 ---
 
@@ -39,9 +39,7 @@ Elegimos Proxmox VE porque permite virtualizar Ubuntu Server y Windows Server en
 
 ### Elección final
 
-Elegimos Windows Server con Active Directory porque tenemos cuatro equipos Windows y necesitamos gestionar sus cuentas, permisos y configuraciones desde un único lugar. Las políticas de grupo permiten aplicar configuraciones de seguridad sin tener que configurar cada ordenador manualmente.
-
-Debemos tener en cuenta que Windows Server requiere una licencia adecuada y que pueden ser necesarias licencias CAL (licencias de acceso de cliente). El precio final depende de la edición y del tipo de licencia.
+Elegimos Windows Server con Active Directory porque tenemos seis equipos Windows y necesitamos gestionar sus cuentas, permisos y configuraciones desde un único lugar. Las políticas de grupo permiten aplicar configuraciones de seguridad sin tener que configurar cada ordenador manualmente.
 
 ---
 
@@ -55,9 +53,7 @@ Debemos tener en cuenta que Windows Server requiere una licencia adecuada y que 
 
 ### Elección final
 
-Utilizaremos Windows 11 Pro en cuatro equipos** y Windows con Linux Mint en arranque dual en otros dos. De esta forma, los trabajadores dispondrán de compatibilidad con las herramientas corporativas y también tendremos equipos para programación, administración de sistemas y pruebas.
-
-Importante: para integrarse en un dominio tradicional de Active Directory, los equipos Windows deben utilizar una edición compatible, como Windows 11 Pro. Windows 11 Home no permite la unión tradicional a un dominio.
+Utilizaremos Windows 11 Pro en cuatro equipos y Windows con Linux Mint en arranque dual en otros dos.
 
 ---
 
@@ -71,26 +67,11 @@ Importante: para integrarse en un dominio tradicional de Active Directory, los e
 
 ### Elección final
 
-Elegimos TrueNAS Community Edition porque está especializado en almacenamiento y permite compartir archivos mediante SMB, gestionar permisos y utilizar ZFS para proteger la integridad de los datos.
-
-Para integrarlo con Windows Server tendremos que configurar correctamente los permisos y la autenticación. También realizaremos copias de seguridad independientes, ya que RAID y las instantáneas no sustituyen a una copia de seguridad.
+Elegimos TrueNAS Community Edition porque está especializado en almacenamiento y permite compartir archivos mediante SMB, gestionar permisos.
 
 ---
 
-## 6. Resumen de la elección final
-
-| Función | Sistema elegido | Motivo principal |
-|---|---|---|
-| Comunicaciones | MikroTik RouterOS | Gestión de red, cortafuegos y VPN. |
-| Servicios de red | Ubuntu Server | Flexibilidad y ausencia de coste de licencia. |
-| Virtualización | Proxmox VE | Varias máquinas virtuales en un mismo servidor. |
-| Gestión centralizada | Windows Server con Active Directory | Administración de usuarios, equipos y políticas. |
-| Clientes | Windows 11 Pro y Linux Mint | Compatibilidad empresarial y herramientas técnicas. |
-| Datos | TrueNAS Community Edition | Almacenamiento centralizado y protección de archivos. |
-
----
-
-## 7. Fuentes oficiales
+## WebGrafia
 
 - [MikroTik RouterOS](https://mikrotik.com/software)
 - [pfSense](https://www.pfsense.org/)
@@ -105,8 +86,3 @@ Para integrarlo con Windows Server tendremos que configurar correctamente los pe
 - [TrueNAS](https://www.truenas.com/)
 - [OpenMediaVault](https://www.openmediavault.org/)
 
-## 8. Conclusión
-
-Hemos seleccionado los sistemas que mejor se adaptan a las necesidades de nuestra empresa, teniendo en cuenta las funcionalidades, el coste, las licencias, la seguridad y la facilidad de administración.
-
-La combinación de MikroTik, Ubuntu Server, Proxmox VE, Windows Server, Windows 11, Linux Mint y TrueNAS permite disponer de una infraestructura organizada, segura y ampliable. Utilizamos soluciones gratuitas cuando cubren nuestras necesidades y reservamos las licencias de pago para las funciones empresariales que justifican su coste.

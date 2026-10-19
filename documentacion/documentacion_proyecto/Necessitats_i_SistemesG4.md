@@ -2,20 +2,20 @@
 
 ## Comunicacions
 
--Para el servidor de comunicaciones utilizaremos 
+- Mikrotik, Ubuntu Server
 
 ## Virtualització
 
--Para la virtualización utilizaremos 
+- Proxmox
 
 ## Gestió centralitzada
 
--Para la gestión centralizada utilizaremos 
+- Windows server (Active Directory)
 
 ## Clients
 
--Para los clientes utilizaremos 
+- 4 Windows 2 Bual boot (Windows, Linux Mint)
 
 ## Dades
 
--Para el servidor de datos utilizaremos 
+- TrueNAS

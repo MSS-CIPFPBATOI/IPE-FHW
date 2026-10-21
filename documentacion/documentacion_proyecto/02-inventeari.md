@@ -28,18 +28,17 @@
 
 - **hola** cable alimentacion IEC
 
-## RJ45 MESA PORTATILES
+## MESA PORTATILES
 
-- **45MPC140** : RJ45 Switch Mesa-PC1 Grupo 4
+- **hola** 6 portatil asus
+ 
+- **hola** 6 cargadores de portatil
 
-- **45MPC240** : RJ45 Switch Mesa-PC2 Grupo 4
+- **hola** 6 pantallas de extendidas
 
-- **45MPC340** : RJ45 Switch Mesa-PC3 Grupo 4
+- **hola** 6 ratolins
 
-- **45MPC440** : RJ45 Switch Mesa-PC4 Grupo 4
+- **hola** un switch
 
-- **45MPC540** : RJ45 Switch Mesa-PC5 Grupo 4
 
-- **45MPC640** : RJ45 Switch Mesa-PC6 Grupo 4
 
-# !!!!!!!!!!!!!!!!!!ESTO BORRADLO!!!!!!!!!!!!!!!!!!!!!!

@@ -3,6 +3,7 @@
 ## BANCO DE TRABAJO
 
 - **45RS40** : PC1 - Servidor de Comunicaciones
+[Prueba enlaze pc](PC1-ServidorComunicaciones)
 
 - **45RS40** : PC2 - TrueNAS
 

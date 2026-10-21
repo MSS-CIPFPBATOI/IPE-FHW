@@ -2,9 +2,9 @@
 
 ## BANCO DE TRABAJO
 
-- **45RS40** : PC1
+- **45RS40** : PC1 - Servidor de Comunicaciones
 
-- **45RS40** : PC2
+- **45RS40** : PC2 - TrueNAS
 
 - **45AES40** : Tarjeta de red USB
 
